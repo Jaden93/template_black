@@ -1,0 +1,403 @@
+
+:root {
+    --main-color: #2B9DF4;
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image:   radial-gradient(
+        closest-side,rgba(109, 109, 109, 0.13),rgb(0, 0, 0)), url(./media/moon.jpg);
+    background-size: cover;
+}   
+
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Jura', sans-serif;
+    padding-left : 18px;
+    padding-right: 18px;
+}
+
+.custom-nav .nav-link {
+    color:grey;
+}
+
+
+.navbar-logo {
+    color: white;
+}
+
+.navbar-logo:hover {
+    color: var(--main-color)
+}
+
+.custom-nav {
+    
+    border-bottom: solid 3px white;
+
+}
+
+
+
+.button-icon {
+    border-top: solid 3px var(--main-color);
+    border-bottom: solid 3px var(--main-color);
+}
+
+.button-icon:hover {
+    border-top: solid 3px var(--main-color);
+    border-bottom: solid 3px var(--main-color);
+    opacity: 0.7;
+    transition-delay: 0.1s;
+}
+
+.img-size {
+   color: var(--main-color);
+   font-size: 50px;
+   
+   
+}
+
+.spaceData {
+    background-color: transparent !important;
+    border:0;
+
+}
+
+
+.spaceData:after {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+      
+}
+
+
+
+
+.img-dimension {
+
+    background-size: cover;
+
+}
+
+.custom-text {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.border-btm  {
+    border-bottom: 2px solid;
+    border-color: var(--main-color);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.border-footer {
+    border-style: solid;
+    border-image: linear-gradient(to left, rgba(42, 159, 255, 0.041)3%,rgba(79, 146, 255, 0.37) 25%, rgb(0, 162, 255) 50%,rgba(79, 146, 255, 0.37) 75%,rgba(42, 159, 255, 0.041)97%) 
+                  100% 0 100% 0/3px 0 3px 0 stretch;
+
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 50px;
+    right: 0;
+    left: 0;
+}
+
+
+.border-center {
+    position: absolute;
+    border: 2px solid;
+    border-color: var(--main-color);
+    width: 100%;
+    top: 10px;
+
+}
+
+
+.masthead {
+    height: 90vh;
+    min-height: 500px;
+    background-position: center;
+}
+
+.pt-6 {
+    padding-top: 120px;
+    justify-content: space-around;
+}
+
+.main-color {
+    color: var(--main-color);
+
+}
+
+/* tasto accordion */ 
+
+.button-font {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    width: 30px;
+    height: 30px;
+
+}
+
+
+/* cards */
+
+.custom-card {
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+
+
+
+
+.custom-btn {
+   
+    position: relative;
+    border-style: none;
+    width: 150px;
+    height: 20px;
+    background-color: transparent;
+    color: white;
+
+}
+
+  
+.custom-btn::after{
+    content:'';
+    border-right: solid 4px var(--main-color);
+    border-bottom: solid 4px var(--main-color);
+    position: absolute;
+    width: 10px; 
+    height: 10px;
+    bottom: -34px;
+    right:0;
+   
+  }
+  
+
+  .custom-btn::before{
+    content:'';
+    border-top: solid 4px var(--main-color);
+    border-left: solid 4px var(--main-color);
+    position: absolute;
+    width: 10px; 
+    height: 10px;
+    top: 0;
+    left:0;
+   
+  }
+
+  
+  .daje {
+      position: absolute;
+      right: 0px;
+  
+  }
+
+  
+ .custom-btn2 {
+    display: inline-block;
+    position: relative;
+    border-style: solid;
+    border-style: none;
+    top: 15px;
+}
+
+  
+.custom-btn2::after{
+    content:'';
+    border-right: solid 4px var(--main-color);
+    border-top: solid 4px var(--main-color);
+    position: absolute;
+    width: 10px; 
+    height: 10px;
+    bottom: 30px;
+    left:84px;
+   
+  }
+  
+
+  .custom-btn2::before{
+    content:'';
+    border-left: solid 4px var(--main-color);
+    border-bottom: solid 4px var(--main-color);
+    position: absolute;
+    width: 10px; 
+    height: 10px;
+    top: 30px;
+    right:84px;
+   
+  }
+
+
+  a {
+      text-decoration: none;
+      color: white;
+  }
+  
+.img-rocket {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.pos-logo {
+    position: absolute;
+    top: 550px;
+}
+
+.custom-color {
+    color: rgb(177, 176, 176);
+    opacity: 0.9;
+}
+
+.social-link {
+    font-size: 24px;
+    padding: 2px 2px 18px;
+ 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+  body:not(.img-world)   {
+      padding-left: 0;
+      padding-right: 0;
+ 
+  } 
+
+  .img-world {
+    background-image: url(./media/sunrise-1765027_1920.jpg);
+    width: 100%;
+    height: 90vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+
+
+  #presidente {
+      width: 200px;
+      height: 200px;
+      background-image: url(./media/presidente.jpg);
+      background-size: cover;
+      border-radius: 50%;
+      background-repeat: no-repeat;
+  }
+
+
+
+.box {
+    width: 150px;
+    height: 60px;
+    position: relative;
+}
+
+
+.pos-box {
+
+    position: absolute;
+    right: 0;
+}
+
+.centerBox  {
+    width: 150px;
+    padding-top: 16px;
+    position: absolute;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+    ;
+}
+
+
+.top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-left: 5px solid var(--main-color);
+    border-top: 5px solid var(--main-color);
+    height: 12px;
+    width: 12px;
+}
+
+.top-right {
+    position:absolute;
+    border-top: solid 5px var(--main-color);
+    border-right: solid 5px var(--main-color);
+    width: 12px;
+    height: 12px;
+    top: 0;
+    right: 0;
+}
+
+.bottom-left {
+    position:absolute;
+    border-bottom: solid 5px var(--main-color);
+    border-left: solid 5px var(--main-color);
+    width: 12px;
+    height: 12px;
+    bottom: 0;
+    left: 0;
+}
+
+
+.bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-right: 5px solid var(--main-color);
+    border-bottom: 5px solid var(--main-color);
+    height: 12px;
+    width: 12px;
+}
+
+
+  @media screen and (max-width: 700px) {
+
+    .container-fluid .border-btm {width: 60%;
+    }
+    
+    /* .button-icon , .border-center {
+        display: none;
+    } */
+    /* #ezio {
+        background-image: url(./media/ezio.jpg);
+       background-size: cover;
+       width: 150px;
+       height: 100px;
+    } */
+
+    .border-footer {
+      display: none
+    };
+  }
+
+
+
+
+  @media screen and (max-width: 1200px) {
+
+
+    .border-footer {
+      display: none
+    };
+  }
+  
+
+  /* <div data-aos="fade-left"></div>
+ */
+ /* <div data-aos="fade-up-right"></div>
+ */
